@@ -1,0 +1,57 @@
+
+
+section.header-img{
+    
+    background-image: url("img/img-article.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+section.header-img h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+section.article{
+    background-color: #F7FBFF;
+}
+
+section.article .container{
+    background-color: white;  
+}
+
+section.article .head-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+section.article p.date{
+    display: flex;
+    align-items: center;
+}
+
+section.article span.month{
+    font-family: "Philosopher";
+    font-size: 25px;
+    color: #E10079;
+    position: relative;
+}
+
+section.article span.day{
+    font-family: "Philosopher";
+    font-size: 50px;
+    margin-left: -20px;
+    color: #C3C3C3;
+}
+
+section.article p{
+    padding: 0 30px 30px 30px;
+    margin: 0;
+}
