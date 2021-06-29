@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Rubik";
+}
+
+img{
+    object-fit: cover;
+}
+
+h1, h2{
+  font-family: "Jost";  
+}
+
+h2{
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.btn-pink{
+    background-color: #E10079;
+    border-radius: 0;
+    padding: 15px 39px;
+
+}
+
+.btn-pink:hover{
+    background-color: transparent;
+    border: solid 1px white;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.btn-pink a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/************************/
+#nav-home{
+    background-color: white;
+}
+
+#nav-home img{
+    height: 64px;
+}
+
+#nav-home ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-home ul a{
+    font-family: "Rubik";
+    font-size: 16px;
+    color: black !important;
+}
+
+/************************/
+
+section.header{
+    background-image: url("img/header.jpg");
+    background-size: cover;
+    height: calc(100vh - 90px);
+    color: white;
+}
+
+section.header h1{
+    line-height: 1;
+    letter-spacing: -.05em;
+    font-size: 70px;
+    font-family: "Jost";
+}
+
+section.header p{
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+section.header .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/************************/
+section.block-txt-1{
+    height: 50vh;
+}
+
+section.block-txt-1 .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
