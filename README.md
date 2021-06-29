@@ -1,2 +1,4 @@
 # maquette-gourbeyre
-Maquette html/css/js Gourbeyre
+Home page 1 : 
+Single article :
+Articles : 
