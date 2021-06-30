@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=Rubik:wght@300;400;600;700&display=swap');
 
 body{
     font-family: "Rubik";
@@ -19,6 +19,7 @@ h2{
 }
 
 .btn-pink{
+    border: solid 2px #E10079;
     background-color: #E10079;
     border-radius: 0;
     padding: 15px 39px;
@@ -27,7 +28,7 @@ h2{
 
 .btn-pink:hover{
     background-color: transparent;
-    border: solid 1px white;
+    border: solid 2px white;
     transition: background-color 0.4s, border 0.4s;
 }
 
@@ -64,7 +65,7 @@ h2{
 section.header{
     background-image: url("img/header.jpg");
     background-size: cover;
-    height: calc(100vh - 90px);
+    min-height: calc(100vh - 90px);
     color: white;
 }
 
@@ -81,7 +82,7 @@ section.header p{
 }
 
 section.header .container{
-    height: 100%;
+    min-height: calc(100vh - 90px);
     display: flex;
     align-items: center;
 }
@@ -89,7 +90,8 @@ section.header .container{
 
 /************************/
 section.block-txt-1{
-    height: 50vh;
+    min-height: 50vh;
+    margin: 60px 0;
 }
 
 section.block-txt-1 .container{
@@ -97,6 +99,146 @@ section.block-txt-1 .container{
     display: flex;
     align-items: center;
 }
+
+section.block-txt-1 h2, section.block-txt-1 p{
+    padding-left: 10%;
+}
+
+section.block-txt-1 h2{
+    font-size: 46px;
+}
+
+section.block-txt-1 p{
+    font-size: 18px;
+    color: #565656;
+}
+
+section.block-txt-1 .button{
+    display: flex;
+    justify-content: center;
+}
+.btn-pink-contact{
+    background-color: white;
+    border: 3px solid #E10079;
+    border-radius: 0;
+    padding: 15px 39px;
+}
+
+.btn-pink-contact:hover{
+    background-color: #E10079;
+    border: solid 3px #E10079;
+    transition: background-color 0.4s, border 0.4s;
+    
+}
+
+.btn-pink-contact a{
+    color: #E10079;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.btn-pink-contact:hover > a{
+    color: white;
+}
+
+/************************/
+
+section.articles{
+    background-color: #F4F2F1;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+section.articles h2{
+    text-align: center;
+    font-family: "Jost";
+}
+
+section.articles .card{
+    border-radius: 0;
+    border: 0;
+    min-height: 526px;
+
+}
+
+section.articles .card h3{
+    font-size: 26px;
+    font-family: "Jost";
+    font-weight: 600;
+}
+
+section.articles .card p{
+    color: #565656;
+}
+
+section.articles .card .content{
+    padding: 26px 18px 8px 22px;
+}
+
+section.articles .card .bottom-card p.date{
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+section.articles .card .bottom-card{
+    padding: 26px 18px 8px 22px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+section.articles .btn-pink:hover{
+    border: 2px solid #E10079;
+}
+
+
+section.articles .btn-pink:hover > a{
+    color: #E10079;
+    transition: color 0.4s, border 0.4s;
+}
+
+/****************************/
+
+section.map .container-fluid{
+    padding: 0 ;
+}
+
+/****************************/
+
+.footer-1{
+    background-color: #0f262b;
+    color: white;
+    padding: 100px;
+    margin-top: -15px;
+}
+.footer-1 h1{
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-1 p{
+    font-family: "Jost";
+    margin: 0;
+}
+
+.footer-1 div.network i{
+    font-size: 30px;
+}
+
+.footer-1 div.network{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 
 
 
