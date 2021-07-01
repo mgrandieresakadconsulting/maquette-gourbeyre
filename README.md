@@ -6,3 +6,5 @@
 ## Proposition 2
 - Home page 2 : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/page-home-2.html  
 - Articles : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/page-article-2.html  
+## Proposition 3
+- Home page 3 : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/home-page-3.html  
