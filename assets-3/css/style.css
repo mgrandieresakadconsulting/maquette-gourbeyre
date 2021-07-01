@@ -74,7 +74,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #E10079;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -878,12 +878,12 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: #012970;
+  color: #E10079;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #4154f1;
+  color: grey;
 }
 
 .blog .entry .entry-meta {
@@ -908,6 +908,7 @@ section {
   font-size: 16px;
   margin-right: 8px;
   line-height: 0;
+  color: #E10079;
 }
 
 .blog .entry .entry-meta a {
@@ -971,7 +972,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #012970;
+  background-color: #E10079;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -982,17 +983,17 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #0d64fd;
+  color: #E10079;
   display: inline;
 }
 
 .blog .entry .entry-footer a {
-  color: #013289;
+  color: black;
   transition: 0.3s;
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #4154f1;
+  color: #E10079;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1219,7 +1220,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #012970;
+  color: black;
   position: relative;
 }
 
@@ -1276,12 +1277,12 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #012970;
+  color: black;
   transition: 0.3s;
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #4154f1;
+  color: #E10079;
 }
 
 .blog .sidebar .categories ul a span {
@@ -1306,12 +1307,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #012970;
+  color: #E10079;
   transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #4154f1;
+  color: grey;
 }
 
 .blog .sidebar .recent-posts time {
