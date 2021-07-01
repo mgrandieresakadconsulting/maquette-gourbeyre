@@ -95,7 +95,7 @@ section.block-txt-1{
 }
 
 section.block-txt-1 .container{
-    height: 100%;
+    min-height: 50vh;
     display: flex;
     align-items: center;
 }
