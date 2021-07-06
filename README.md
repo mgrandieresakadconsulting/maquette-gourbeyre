@@ -4,7 +4,7 @@
 
 ## Proposition 3
 - Accueil : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/Proposition_3/index.html  
-### Pages 
+### Proposition 3 - Pages disponibles
 - Accueil
 - Qui sommes nous ? 
 - Actualités
