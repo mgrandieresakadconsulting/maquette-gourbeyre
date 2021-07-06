@@ -10,5 +10,5 @@
 - Contact
 
 
-## Proposition 3
-- Accueil : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/Proposition_3/index.html  
+## Proposition 2
+- Accueil : https://mgrandieresakadconsulting.github.io/maquette-gourbeyre/Proposition_2/index.html  
