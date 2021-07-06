@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Qui sommes nous ?</title>
+  <title>Single article</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,14 +41,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           
-          <li class="dropdown"><a href="#"><span>L'association</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-                <li><a href="articles.html">Actualités</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </li>
+          <li class="nav-item"><a href="articles.html">Actualités</a></li>
+          <li class="nav-item"><a href="#">Evènements</a></li>
+          <!--<li class="nav-item"><a href="#services">Services</a></li>-->
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
 
           <li class="dropdown"><a href="#"><span>Espace coworking</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -56,9 +52,12 @@
             </ul>
           </li>
 
-          
-          
-          <!--<li><a class="getstarted scrollto" href="#about">Se connecter</a></li>-->
+          <li class="dropdown"><a class="scrollto" href="#"><span>Se connecter</span> <i class="bi bi-person"></i></a>
+            <ul>
+              <li><a href="#">Je suis un professionnel</a></li>
+              <li><a href="#">Je veux créer un compte jeune</a></li>
+            </ul>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -75,10 +74,10 @@
 
         <ol>
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="qui-sommes-nous.html">Qui sommes-nous ? </a></li>
-          
+          <li><a href="articles.html">Articles</a></li>
+          <li>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</li>
         </ol>
-        <h2>Qui sommes-nous ?</h2>
+        <h2>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -87,17 +86,26 @@
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
 
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="assets-3/img/img/img-article-3.jpg" alt="" class="img-fluid" width="100%">
+                <img src="assets-3/img/img/img-gb-1.jpg" alt="" class="img-fluid">
               </div>
 
-              
-
               <h2 class="entry-title">
-                <a href="blog-single.html">Qui sommes nous ? </a>
+                <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
               </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">01 juillet 2021</time></a></li>
+                </ul>
+              </div>
 
               <div class="entry-content">
                 <p>
@@ -140,13 +148,66 @@
 
               </div>
 
-              
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="#">Travel</a></li>
+                </ul>
+
+                
+                
+              </div>
 
             </article><!-- End blog entry -->
 
           </div><!-- End blog entries list -->
 
-    
+          <div class="col-lg-4">
+
+            <div class="sidebar">
+              
+
+              <h3 class="sidebar-title">Categories</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="#">Travel <span>(5)</span></a></li>
+                  <li><a href="#">Design <span>(22)</span></a></li>
+                  <li><a href="#">Creative <span>(8)</span></a></li>
+                  <li><a href="#">Education <span>(14)</span></a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
+
+              <h3 class="sidebar-title">Derniers articles</h3>
+              <div class="sidebar-item recent-posts">
+                <div class="post-item clearfix">
+                  <img src="assets-3/img/img/img-gb-1.jpg" alt="">
+                  <h4><a href="blog-single.html">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets-3/img/img/img-gb-2.jpg" alt="">
+                  <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets-3/img/img/img-gb-3.jpeg" alt="">
+                  <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+              
+              </div><!-- End sidebar tags-->
+
+            </div><!-- End sidebar -->
+
+          </div><!-- End blog sidebar -->
+
         </div>
 
       </div>

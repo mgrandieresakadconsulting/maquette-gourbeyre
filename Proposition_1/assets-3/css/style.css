@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
+::-moz-selection { background: #E10079; }
+::selection { background: #E10079; }
+
 
 /*--------------------------------------------------------------
 # Sections
@@ -236,6 +239,10 @@ section {
   margin-left: 5px;
 }
 
+.navbar a i.bi-person{
+  font-size: 20px; 
+}
+
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #E10079;
 }
@@ -253,6 +260,11 @@ section {
   background: white;
   border: 1px solid black;
 }
+.navbar .dropdown.connect ul li a:hover > a{
+  color: white !important;
+}
+
+
 
 .navbar .dropdown ul {
   display: block;
@@ -565,8 +577,13 @@ section {
   transform: translateX(5px);
 }
 
+.about img{
+  height: 400px;
+  object-fit: cover;
+}
+
 /*--------------------------------------------------------------
-# Values
+# Event
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
@@ -595,6 +612,14 @@ section {
 
 .values .box:hover img {
   transform: scale(1);
+}
+
+.values p.date{
+  color: black;
+  font-weight: bold;
+}
+.values button a{
+  color: white;
 }
 
 
@@ -848,6 +873,14 @@ section {
 .recent-blog-posts .post-box:hover .post-img img {
   transform:  scale(1.2);
 }
+
+.recent-blog-posts .input-group select{
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
 
 
 
@@ -1357,6 +1390,12 @@ section {
   color: #a5c5fe;
   font-size: 14px;
 }
+
+.blog img{
+  display: block;
+  margin: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
