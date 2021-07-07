@@ -33,6 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 ::-moz-selection { background: #E10079; }
 ::selection { background: #E10079; }
 
+.btn-pink{
+  background-color: #E10079;
+}
+
+.btn-pink a{
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Sections
@@ -550,7 +557,7 @@ section {
   line-height: 24px;
 }
 
-.about .btn-read-more {
+.btn-read-more {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
@@ -560,20 +567,20 @@ section {
   box-shadow: 0px 5px 30px rgba(225, 0, 121, 0.4);
 }
 
-.about .btn-read-more span {
+.btn-read-more span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
-.about .btn-read-more i {
+.btn-read-more i {
   margin-left: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.about .btn-read-more:hover i {
+.btn-read-more:hover i {
   transform: translateX(5px);
 }
 
@@ -621,7 +628,6 @@ section {
 .values button a{
   color: white;
 }
-
 
 /*--------------------------------------------------------------
 # Services
@@ -775,6 +781,31 @@ section {
 .services .service-box:hover .icon {
   background: #fff;
 }
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #f6f7ff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
 
 /*--------------------------------------------------------------
 # F.A.Q
@@ -877,8 +908,11 @@ section {
 .recent-blog-posts .input-group select{
   border: none;
   padding: 5px 20px;
-  border-radius: 5px;
+  border-radius: 2px;
   font-family: "Nunito", sans-serif;
+  margin: auto;
+  display: block;
+  border: 2px solid black;
 }
 
 
